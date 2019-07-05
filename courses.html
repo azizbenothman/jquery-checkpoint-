@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GoMyCode.com</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+</head>
+<body >
+<div id="nav">
+	<div class='test'>
+<ul >	
+	<li>
+	<a href="index.html" >Home</a>
+	</li>
+	<li>
+	<a href="Courses.html">Courses</a>	
+	</li>
+	<li>
+	<a href="Contact.html">	Contact</a>	
+	</li>
+</ul>
+</div>
+<div class="test">
+<img class="logo" src="res/gomycode1.jpg">
+</div>
+</div>
+</div>
+
+<center>
+<h1>COURSES</h1>
+<img class="img2" src="https://cdn-images-1.medium.com/max/1200/1*9ChtQEhsF_H90kT8YNeNlg.jpeg">
+<div class="bloc1">
+	<div class="im1">
+	<img class="image" src="res/p1.png">
+	<p><a href="#ex1" rel="modal:open" class="lk">View More</a></p>
+</div>
+<div id="ex1" class="modal">
+  <p>This is GoMyCode Track <br> Each track has its own goal <br> By adopting this track, you chose your own track</p>
+  <a href="#" rel="modal:close" class="lk">Close</a>
+</div>
+<div class="im2">
+	<img class="image " src="res/p2.png">
+	<p><a href="#ex1" rel="modal:open" class="lk">View More</a></p>
+	</div>
+	<div id="ex1" class="modal">
+  <p>This is GoMyCode Track <br> Each track has its own goal <br> By adopting this track, you chose your own track</p>
+  <a href="#" rel="modal:close" class="lk">Close</a>
+</div>
+	<div class="im3">
+	<img class="image" src="res/p3.png">
+	<p><a href="#ex1" rel="modal:open" class="lk">View More</a></p> 
+	<div id="ex1" class="modal">
+  <p>This is GoMyCode Track <br> Each track has its own goal <br> By adopting this track, you chose your own track</p>
+  <a href="#" rel="modal:close">Close</a>
+</div>
+	</div>
+</div>
+<div class="bloc1">
+	<div class="im1">
+	<img class="image" src="res/p4.png">
+	<p><a href="#ex1" rel="modal:open" class="lk">View More</a></p>
+</div>
+<div id="ex1" class="modal">
+  <p>This is GoMyCode Track <br> Each track has its own goal <br> By adopting this track, you chose your own track</p>
+  <a href="#" rel="modal:close" class="lk">Close</a>
+</div>
+<div class="im2">
+	<img class=" image" src="res/p5.png">
+	<p><a href="#ex1" rel="modal:open" class="lk">View More</a></p> 
+</div>
+<div id="ex1" class="modal">
+  <p>This is GoMyCode Track <br> Each track has its own goal <br> By adopting this track, you chose your own track</p>
+  <a href="#" rel="modal:close" class="lk">Close</a>
+</div>
+	<div class="im3">
+	<img class="image" src="res/p6.png">
+	<p><a href="#ex1" rel="modal:open" class="lk">View More</a></p>
+	</div>
+	<div id="ex1" class="modal">
+  <p>This is GoMyCode Track <br> Each track has its own goal <br> By adopting this track, you chose your own track</p>
+  <a href="#" rel="modal:close" class="lk">Close</a>
+</div>
+</div>
+<div class="bloc1">
+	<div class="im1">
+	<img class="image" src="res/p7.png">
+	<p><a href="#ex1" rel="modal:open" class="lk">View More</a></p>
+</div>
+<div id="ex1" class="modal">
+  <p>This is GoMyCode Track <br> Each track has its own goal <br> By adopting this track, you chose your own track</p>
+  <a href="#" rel="modal:close" class="lk">Close</a>
+</div>
+<div class="im2">
+	<img class=" image" src="res/p8.png">
+	<p><a href="#ex1" rel="modal:open" class="lk">View More</a></p>
+	</div>
+	<div id="ex1" class="modal">
+  <p>This is GoMyCode Track <br> Each track has its own goal <br> By adopting this track, you chose your own track</p>
+  <a href="#" rel="modal:close" class="lk">Close</a>
+</div>
+	<div class="im3">
+	<img class="image" src="res/p9.png">
+	<p><a href="#ex1" rel="modal:open" class="lk">View More</a></p>
+	<div id="ex1" class="modal">
+  <p>This is GoMyCode Track <br> Each track has its own goal <br> By adopting this track, you chose your own track</p>
+  <a href="#" rel="modal:close" class="lk">Close</a>
+</div>
+	</div>
+</div>
+
+<h2>Feedback</h2>
+<button class="button1" onclick="changeBold()">B</button>
+<button class="button2">I</button>
+<button class="button3" onclick="changeUnderline()">Underline</button>
+<form>
+	<select id="font" onchange="changeSize()">
+		<option value="30px">30px</option>
+		<option value="25px">25px</option>
+		<option value="20px">20px</option>
+		<option value="15px">15px</option>
+		<option value="10px">10px</option>
+	</select>
+</form>
+<form>
+	<select onchange="changeFont(event.target.value)">
+		<option value="Arial">Arial</option>
+		<option value="Times">Times New roman</option>
+	</select>
+</form>
+<textarea cols="50" rows="5" style="font-weight: normal; font-style: normal;text-decoration: none;"></textarea><br>
+<h2>Thanks for your visit</h2>
+</center>
+<div id="ex1" class="modal">
+  
+  <a href="#" rel="modal:close">Close</a>
+</div>
+</body>
+<script type="text/javascript" src="js/main.js"></script>
+</html>
